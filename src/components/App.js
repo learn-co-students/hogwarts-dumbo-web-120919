@@ -1,15 +1,23 @@
 import React, { Component } from "react";
 import "../App.css";
+
+import pigs from "../porkers_data";
 import Nav from "./Nav";
-import hogs from "../porkers_data";
-import HelloWorld from "./HelloWorld";
+import PigPen from "./PigPen";
+import ButtonContainer from "./ButtonContainer";
 
 class App extends Component {
+
+  state = {
+    allPigs: pigs
+  }
+
   render() {
     return (
       <div className="App">
         <Nav />
-        <HelloWorld />
+        <ButtonContainer />
+        <PigPen allPigs={this.state.allPigs} />
       </div>
     );
   }

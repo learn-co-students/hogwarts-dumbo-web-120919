@@ -1,45 +1,51 @@
-const hogs = [
+const pigs = [
   {
     name: 'Mudblood',
     specialty: 'Mediocre magic',
     greased: false,
     weight: 2.0,
-    'highest medal achieved': 'bronze'
+    'highest medal achieved': 'bronze',
+    image: '../hog-imgs/mudblood.jpg'
   },
   {
     name: 'Porkchop',
     specialty: 'Making friends',
     greased: true,
     weight: 1.6,
-    'highest medal achieved': 'silver'
+    'highest medal achieved': 'silver',
+    image: '../hog-imgs/porkchop.jpg'
   },
   {
     name: 'Cherub',
     specialty: 'truffle finder',
     greased: false,
     weight: 0.7,
-    'highest medal achieved': 'gold'
+    'highest medal achieved': 'gold',
+    image: '../hog-imgs/cherub.jpg'
   },
   {
     name: 'Piggy smalls',
     specialty: 'Massivity',
     greased: true,
     weight: 5.1,
-    'highest medal achieved': 'platinum'
+    'highest medal achieved': 'platinum',
+    image: '../hog-imgs/piggy_smalls.jpg'
   },
   {
     name: 'Trouble',
     specialty: 'Racing',
     greased: true,
     weight: 1.7,
-    'highest medal achieved': 'gold'
+    'highest medal achieved': 'gold',
+    image: '../hog-imgs/trouble.jpg'
   },
   {
     name: 'Sobriety',
     specialty: 'Expert Witness',
     greased: false,
     weight: 2.2,
-    'highest medal achieved': 'silver'
+    'highest medal achieved': 'silver',
+    image: '../hog-imgs/sobriety.jpg'
   },
   {
     name: 'Rainbowdash',
@@ -92,4 +98,4 @@ const hogs = [
   }
 ];
 
-export default hogs;
+export default pigs;
