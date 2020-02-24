@@ -31,7 +31,7 @@ class PigCard extends React.Component {
                {this.state.showDetails ? 
                  <ul>
                     <li>Specialty: {this.props.pig.specialty}</li>
-                    <li>Greased: {this.props.pig.greased}</li>
+                    <li>Greased: {this.props.pig.greased.toString()}</li>
                     <li>Weight: {this.props.pig.weight}</li>
                     <li>Highest Medal Achieved: {this.props.pig['highest medal achieved']}</li>
                 </ul> : console.log("ain't no pig details here")
