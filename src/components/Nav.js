@@ -1,7 +1,7 @@
 import piggy from "../porco.png";
 import React from "react";
 
-const Nav = () => {
+const Nav = (props) => {
   return (
     <div className="navWrapper">
       <span className="headerText">Hogwarts</span>
